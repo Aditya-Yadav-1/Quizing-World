@@ -1,0 +1,87 @@
+/* '*' is for thw whole html page  */
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing:border-box;   /* box-sizing:border-box adjusts the border and padding within the width of the element */
+}
+body{
+    background: linear-gradient(#497dd7 ,#27428c ,#123e9d );
+    /* background: rgb(0,33,36); */
+    /* background: linear-gradient( rgba(0,33,36,1) 0%, rgb(28, 72, 160,1) 30%, rgba(0,212,255,1) 40%); */
+
+}
+.quiz-space{
+    background: #9191f0;
+    /* background: linear-gradient( rgb(231, 211, 219), rgb(112, 92, 225) ); */
+    background: linear-gradient( rgb(196, 170, 180), rgb(112, 92, 225) );
+    width: 50%;
+    /* max-width: 600px; */
+    /* padding: 50px auto 0px; */
+    margin: 130px auto 120px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.quiz-head{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #222;
+}
+.quiz-head img{
+    height: 25px;
+    display: inline;
+}
+.quiz-head h1{
+    display: inline;
+    width: 120px;
+    font-size: 25px;
+    background: linear-gradient( #1b4da5 40%,#4f70ca 80%,#1d49a8 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#ques{
+    background: linear-gradient( #0b4bb9 40%,#3d58a3 80%,#0f4bcd 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 17px;
+    padding: 20px 0 10px 0;
+}
+.btn{
+    background: #d8c8dd;
+    color: #222;
+    font-weight: 540;
+    font-size: 80%;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s;  /* transition padhna hai*/
+}
+.btn:hover:not([disabled]){
+    background-color:  black;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    padding: 10px 5px;
+    margin: 20px auto 0;
+    width: 20%;
+    border-radius: 4px;
+    border: 1px solid black;
+    background: linear-gradient(#497dd7 ,#27428c ,#123e9d );
+    color: wheat;
+    cursor: pointer;
+    font-weight: 530;
+    display: block; /*display padhna hai*/
+}
+.correct{
+    background:#22b035;
+}
+.incorrect{
+    background:#e24949;
+}
