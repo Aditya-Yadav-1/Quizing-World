@@ -1,4 +1,4 @@
-/* '*' is for thw whole html page  */
+
 *{  
     margin: 0;
     padding: 0;
@@ -7,17 +7,12 @@
 }
 body{
     background: linear-gradient(#497dd7 ,#27428c ,#123e9d );
-    /* background: rgb(0,33,36); */
-    /* background: linear-gradient( rgba(0,33,36,1) 0%, rgb(28, 72, 160,1) 30%, rgba(0,212,255,1) 40%); */
-
 }
 .quiz-space{
     background: #9191f0;
     /* background: linear-gradient( rgb(231, 211, 219), rgb(112, 92, 225) ); */
     background: linear-gradient( rgb(196, 170, 180), rgb(112, 92, 225) );
     width: 50%;
-    /* max-width: 600px; */
-    /* padding: 50px auto 0px; */
     margin: 130px auto 120px;
     border-radius: 10px;
     padding: 30px;
@@ -58,7 +53,7 @@ body{
     margin: 10px 0;
     text-align: left;
     cursor: pointer;
-    transition: all 0.2s;  /* transition padhna hai*/
+    transition: all 0.2s; 
 }
 .btn:hover:not([disabled]){
     background-color:  black;
@@ -77,7 +72,7 @@ body{
     color: wheat;
     cursor: pointer;
     font-weight: 530;
-    display: block; /*display padhna hai*/
+    display: block; 
 }
 .correct{
     background:#22b035;
